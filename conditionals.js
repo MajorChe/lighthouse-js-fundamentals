@@ -1,3 +1,5 @@
+const raining = true;
+const cold = false;
 const temperature = 16;
 
 if (temperature < 0) {
@@ -7,5 +9,8 @@ if (temperature < 0) {
 } else {
   console.log("Short sleeves are fine.");
 }
-
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
 console.log("Now you're ready to go outside!");
+
